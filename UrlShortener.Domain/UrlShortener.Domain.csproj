@@ -49,5 +49,8 @@
     <Compile Include="SQLRepository\ISQLRepository.cs" />
     <Compile Include="SQLRepository\SQLRepository.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Database Scripts\Urls.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
